@@ -1,0 +1,131 @@
+h1 {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+
+
+}
+footer{
+  text-align: center;
+  font-family: 'Righteous', cursive;
+
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+	margin-left: 25%;
+  background-color: rgba(255,255,255, 0.3);
+
+}
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid rgba(255,255,255, 0.3);
+	display: wrap;
+
+}
+
+.pixel {
+  height: 1em;
+  width: 1em;
+  border: rgba(255,255,255, 0.3) .01em solid;
+}
+.colors{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 0px 50px 0px
+
+}
+.red{
+
+  height: 1em;
+  width: 1em;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.orange{
+
+  height: 1em;
+  width: 1em;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.blue{
+
+  height: 1em;
+  width: 1em;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.purple{
+
+  height: 1em;
+  width: 1em;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.pink{
+
+  height: 1em;
+  width: 1em;
+  background-color: pink;
+  border-radius: 50%;
+  display: inline-block;
+
+
+}
+.brown{
+
+  height: 1em;
+  width: 1em;
+  background-color: brown;
+  border-radius: 50%;
+  display: inline-block;
+
+
+}
+.yellow{
+  height: 1em;
+  width: 1em;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.green{
+  height: 1em;
+  width: 1em;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.black{
+  height: 1em;
+  width: 1em;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+body {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://i.ytimg.com/vi/f9OSSl3ndRo/maxresdefault.jpg);
+}
